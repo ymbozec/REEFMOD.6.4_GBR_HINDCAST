@@ -65,7 +65,7 @@ coral_recruits = coral_cover_per_taxa;
 coral_offsprings = coral_cover_per_taxa;
     
 if OPTIONS.doing_size_frequency == 1   
-    nb_juv = zeros(NB_SIMULATIONS, NB_REEFS, NB_TIME_STEPS+1, 6, 4) ;
+    nb_juv = zeros(NB_SIMULATIONS, META.nb_reefs, META.nb_time_steps+1, 6, 4) ;
     nb_adol = zeros(NB_SIMULATIONS,META.nb_reefs,META.nb_time_steps+1,META.nb_coral_types, 13,'single') ;
     nb_adult = zeros(NB_SIMULATIONS,META.nb_reefs,META.nb_time_steps+1,META.nb_coral_types, 9,'single') ; 
 end
